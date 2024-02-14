@@ -1,0 +1,4 @@
+192.168.173.59 - - [14/Feb/2024:16:04:45 +0200] "GET / HTTP/1.1" 200 615 "-" "Avast Antivirus"
+192.168.173.59 - - [14/Feb/2024:16:04:56 +0200] "GET /HNAP1/ HTTP/1.1" 404 153 "-" "Avast Antivirus"
+192.168.173.59 - - [14/Feb/2024:16:05:19 +0200] "GET /bmlinks/ddf.xml HTTP/1.1" 404 153 "-" "Avast Antivirus"
+192.168.173.59 - - [14/Feb/2024:16:05:19 +0200] "GET /upnp/BasicDevice.xml HTTP/1.1" 404 153 "-" "Avast Antivirus"
