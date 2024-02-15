@@ -1,3 +1,32 @@
 2024/02/14 16:04:56 [error] 5612#12820: *2 "C:\Users\Stan\Documents\devops\nginx-1.25.3/html/HNAP1/index.html" is not found (3: The system cannot find the path specified), client: 192.168.173.59, server: localhost, request: "GET /HNAP1/ HTTP/1.1", host: "192.168.173.59"
 2024/02/14 16:05:19 [error] 5612#12820: *3 CreateFile() "C:\Users\Stan\Documents\devops\nginx-1.25.3/html/bmlinks/ddf.xml" failed (3: The system cannot find the path specified), client: 192.168.173.59, server: localhost, request: "GET /bmlinks/ddf.xml HTTP/1.1", host: "192.168.173.59"
 2024/02/14 16:05:19 [error] 5612#12820: *4 CreateFile() "C:\Users\Stan\Documents\devops\nginx-1.25.3/html/upnp/BasicDevice.xml" failed (3: The system cannot find the path specified), client: 192.168.173.59, server: localhost, request: "GET /upnp/BasicDevice.xml HTTP/1.1", host: "192.168.173.59"
+2024/02/14 20:08:15 [emerg] 17540#25076: no "events" section in configuration
+2024/02/14 20:12:33 [emerg] 28060#14584: unexpected "}" in C:\Users\Stan\Documents\devops\basic-load-balancer\nginx/conf/nginx.conf:5
+2024/02/14 20:16:16 [emerg] 19128#14096: unexpected "}" in C:\Users\Stan\Documents\devops\basic-load-balancer\nginx/conf/nginx.conf:5
+2024/02/14 20:17:23 [emerg] 23616#8176: unexpected "}" in C:\Users\Stan\Documents\devops\basic-load-balancer\nginx/conf/nginx.conf:5
+2024/02/14 20:19:08 [emerg] 24316#28416: unexpected "}" in C:\Users\Stan\Documents\devops\basic-load-balancer\nginx/conf/nginx.conf:5
+2024/02/14 20:20:05 [notice] 16312#19200: signal process started
+2024/02/14 20:20:05 [error] 16312#19200: OpenEvent("Global\ngx_reload_27792") failed (2: The system cannot find the file specified)
+2024/02/14 20:20:35 [notice] 28468#22768: signal process started
+2024/02/14 20:20:35 [error] 28468#22768: OpenEvent("Global\ngx_reload_27792") failed (2: The system cannot find the file specified)
+2024/02/14 20:30:28 [error] 6760#12264: *1 CreateFile() "C:/Users/Stan/Documents/devops/basic-load-balancer/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2024/02/14 20:35:24 [notice] 7276#19296: signal process started
+2024/02/14 20:37:00 [notice] 18792#17264: signal process started
+2024/02/14 20:38:05 [notice] 27756#19972: signal process started
+2024/02/14 20:38:27 [notice] 17788#19616: signal process started
+2024/02/14 20:41:40 [notice] 26792#3660: signal process started
+2024/02/14 20:44:07 [error] 2488#15372: *16 CreateFile() "C:/Users/Stan/Documents/devops/basic-load-balancer/das" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /das HTTP/1.1", host: "localhost:8888"
+2024/02/14 20:44:34 [notice] 9148#15168: signal process started
+2024/02/14 20:47:29 [emerg] 23364#3156: unexpected "}" in C:\Users\Stan\Documents\devops\basic-load-balancer\nginx/conf/nginx.conf:14
+2024/02/14 20:47:39 [error] 18708#27424: *21 CreateFile() "C:/Users/Stan/Documents/devops/basic-load-balancer/vehicless" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vehicless HTTP/1.1", host: "localhost:8888"
+2024/02/14 20:47:49 [error] 18708#27424: *21 CreateFile() "C:/Users/Stan/Documents/devops/basic-load-balancer/vehicles" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vehicles HTTP/1.1", host: "localhost:8888"
+2024/02/14 20:47:52 [error] 18708#27424: *21 CreateFile() "C:/Users/Stan/Documents/devops/basic-load-balancer/vehicles" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vehicles HTTP/1.1", host: "localhost:8888"
+2024/02/14 20:47:53 [error] 18708#27424: *21 CreateFile() "C:/Users/Stan/Documents/devops/basic-load-balancer/vehicles" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vehicles HTTP/1.1", host: "localhost:8888"
+2024/02/14 20:47:55 [error] 18708#27424: *21 CreateFile() "C:/Users/Stan/Documents/devops/basic-load-balancer/vehicles" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vehicles HTTP/1.1", host: "localhost:8888"
+2024/02/14 20:48:04 [error] 18708#27424: *21 CreateFile() "C:/Users/Stan/Documents/devops/basic-load-balancer/vehicles" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vehicles HTTP/1.1", host: "localhost:8888"
+2024/02/14 20:48:20 [notice] 1188#27028: signal process started
+2024/02/14 20:48:22 [error] 18708#27424: *22 CreateFile() "C:/Users/Stan/Documents/devops/basic-load-balancer/vehicles" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vehicles HTTP/1.1", host: "localhost:8888"
+2024/02/14 20:48:23 [error] 18708#27424: *23 CreateFile() "C:/Users/Stan/Documents/devops/basic-load-balancer/vehicles" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vehicles HTTP/1.1", host: "localhost:8888"
+2024/02/15 08:32:06 [alert] 28372#19608: worker process 1372 exited with code C0000142
+2024/02/15 08:32:06 [alert] 28372#19608: could not respawn worker
